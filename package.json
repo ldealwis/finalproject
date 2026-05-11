@@ -1,0 +1,16 @@
+{
+  "name": "flighttracker",
+  "version": "1.0.0",
+  "description": "**Submitted by:** Lina De Alwis([ldealwis])\r **App Description:** A Node.js code that tracks real-time airline data using Aviationstack and saves flight logs to MongoDB.\r **YouTube Video Link:** [....]\r **APIs:** Aviationstack (https://aviationstack.com/)\r **Contact Email:** [ldealwis@terpmail.umd.edu]\r **Deployed App Link:** [....]\r **AI Use:** Claude",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
