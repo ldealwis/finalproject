@@ -1,0 +1,22 @@
+html {
+    font-size: 20px;
+    background-image: url(plane.webp); 
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: 200px 200px; 
+    background-position: center; 
+    background-color: azure;       
+}
+
+body {
+    color: #0b1d58;           
+    font-family: 'Montserrat';
+}
+
+ul{
+    background-color: white; 
+    width: 30rem; 
+}
+label{
+    background-color: white;
+}
