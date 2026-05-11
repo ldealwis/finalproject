@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/flighttracker.css">
+</head>
+<body>
+    <h1>Flight Details</h1>
+    <ul>
+        <li><strong>Airline:</strong> <%= flight.airline %></li>
+        <li><strong>Flight Number:</strong> <%= flight.flightNum %></li>
+        <hr>
+        <li><strong>From:</strong> <%= flight.departureAirport %>, <%= flight.departureCountry %></li>
+        <li><strong>Departure Time:</strong> <%= flight.departureTime %></li>
+        <br>
+        <li><strong>To:</strong> <%= flight.arrivalAirport %>, <%= flight.arrivalCountry %></li>
+        <li><strong>Arrival Time:</strong> <%= flight.arrivalTime %></li>
+        <hr>
+        <li><strong>Status:</strong> <%= flight.status %></li>
+    </ul>
+    <a href="/">Back to Search</a>
+</body>
+</html>
